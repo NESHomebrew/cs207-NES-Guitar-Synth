@@ -1,0 +1,50 @@
+V3 34
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A138.vhf 2015/12/03.03:38:01 P.20131013
+EN work/A138 1449138190 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A138.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/A138/BEHAVIORAL 1449138191 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A138.vhf \
+      EN work/A138 1449138190 CP NAND4 CP AND3B2 CP INV
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A245.vhf 2015/12/03.03:38:01 P.20131013
+EN work/A245 1449138194 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A245.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/A245/BEHAVIORAL 1449138195 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A245.vhf \
+      EN work/A245 1449138194 CP AND2B2 CP AND2B1 CP BUFGCE
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A595.vhf 2015/12/03.03:38:01 P.20131013
+EN work/A595 1449138192 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A595.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/A595/BEHAVIORAL 1449138193 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A595.vhf \
+      EN work/A595 1449138192 CP FDR CP FD CP BUF CP INV CP BUFGCE
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf 2015/12/03.04:14:11 P.20131013
+EN work/Papilio_One_250K 1449138196 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Papilio_One_250K/BEHAVIORAL 1449138197 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf \
+      EN work/Papilio_One_250K 1449138196 CP INV CP NAND3 CP GND CP PULLUP CP A138 \
+      CP A595 CP A245
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT138.vhf 2015/12/03.01:50:21 P.20131013
+EN work/HCT138 0 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT138.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HCT138/BEHAVIORAL 0 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT138.vhf \
+      EN work/HCT138 0 CP NAND4 CP AND3B2 CP INV
+FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT245.vhf 2015/12/03.01:50:22 P.20131013
+EN work/HCT245 0 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT245.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HCT245/BEHAVIORAL 0 \
+      FL C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/_74HCT245.vhf \
+      EN work/HCT245 0 CP AND2B1 CP AND2B2 CP BUFGCE

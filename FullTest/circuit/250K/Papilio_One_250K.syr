@@ -1,0 +1,534 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Papilio_One_250K.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Papilio_One_250K.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Papilio_One_250K"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-vq100
+
+---- Source Options
+Top Module Name                    : Papilio_One_250K
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../../../../../../DesignLab-1.0.7/libraries/AVR_Wishbone_Bridge" "../../../../../../../DesignLab-1.0.7/libraries/Benchy" "../../../../../../../DesignLab-1.0.7/libraries/BitCoin_Miner" "../../../../../../../DesignLab-1.0.7/libraries/Building_Blocks" "../../../../../../../DesignLab-1.0.7/libraries/Clocks" "../../../../../../../DesignLab-1.0.7/libraries/Gameduino" "../../../../../../../DesignLab-1.0.7/libraries/HQVGA" "../../../../../../../DesignLab-1.0.7/libraries/Papilio_Hardware" "../../../../../../../DesignLab-1.0.7/libraries/RGB_Matrix" "../../../../../../../DesignLab-1.0.7/libraries/Robot_Control_Library" "../../../../../../../DesignLab-1.0.7/libraries/VGA_ZPUino" "../../../../../../../DesignLab-1.0.7/libraries/VGA_ZXSpectrum" "../../../../../../../DesignLab-1.0.7/libraries/ZPUino_2" "../../../../../../../DesignLab-1.0.7/libraries/ZPUino_Wishbone_Peripherals" "../../../../../Documents/DesignLab/libraries/A138" "../../../../../Documents/DesignLab/libraries/A245"
+"../../../../../Documents/DesignLab/libraries/A595" "../../../../../Documents/DesignLab/libraries/_595" "../../../../../Documents/DesignLab/libraries/_74HCT138" "../../../../../Documents/DesignLab/libraries/_74HCT245"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A138.vhf" in Library work.
+Architecture behavioral of Entity a138 is up to date.
+Compiling vhdl file "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A595.vhf" in Library work.
+Architecture behavioral of Entity a595 is up to date.
+Compiling vhdl file "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A245.vhf" in Library work.
+Architecture behavioral of Entity a245 is up to date.
+Compiling vhdl file "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" in Library work.
+Architecture behavioral of Entity papilio_one_250k is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Papilio_One_250K> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <A138> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <A595> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <A245> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Papilio_One_250K> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 233: Unconnected output port 'Y7_7' of component 'A138'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 233: Unconnected output port 'Y6_9' of component 'A138'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 233: Unconnected output port 'Y5_10' of component 'A138'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q7S_9' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q1_1' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q0_15' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q3_3' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q2_2' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q5_5' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q4_4' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q6_6' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 249: Unconnected output port 'Q7_7' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q7S_9' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q1_1' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q0_15' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q3_3' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q2_2' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q5_5' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q4_4' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q6_6' of component 'A595'.
+WARNING:Xst:753 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 265: Unconnected output port 'Q7_7' of component 'A595'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B0_18' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B1_17' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B2_16' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B3_15' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B4_14' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B5_13' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B6_12' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 281: Unconnected inout port 'B7_11' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B0_18' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B1_17' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B2_16' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B3_15' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B4_14' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B5_13' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B6_12' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 301: Unconnected inout port 'B7_11' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B0_18' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B1_17' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B2_16' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B3_15' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B4_14' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B5_13' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B6_12' of component 'A245'.
+WARNING:Xst:754 - "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf" line 321: Unconnected inout port 'B7_11' of component 'A245'.
+Entity <Papilio_One_250K> analyzed. Unit <Papilio_One_250K> generated.
+
+Analyzing Entity <A138> in library <work> (Architecture <behavioral>).
+Entity <A138> analyzed. Unit <A138> generated.
+
+Analyzing Entity <A595> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_4> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_5> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_6> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_7> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_10> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_11> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_12> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_13> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_14> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_15> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_16> in unit <A595>.
+    Set user-defined property "INIT =  0" for instance <XLXI_17> in unit <A595>.
+Entity <A595> analyzed. Unit <A595> generated.
+
+Analyzing Entity <A245> in library <work> (Architecture <behavioral>).
+Entity <A245> analyzed. Unit <A245> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <A138>.
+    Related source file is "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A138.vhf".
+Unit <A138> synthesized.
+
+
+Synthesizing Unit <A595>.
+    Related source file is "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A595.vhf".
+Unit <A595> synthesized.
+
+
+Synthesizing Unit <A245>.
+    Related source file is "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/A245.vhf".
+Unit <A245> synthesized.
+
+
+Synthesizing Unit <Papilio_One_250K>.
+    Related source file is "C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf".
+WARNING:Xst:2565 - Inout <WING_AL3> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL4> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL5> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH0> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL6> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH1> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL7> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH2> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH3> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH4> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH5> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH6> is never assigned.
+WARNING:Xst:2565 - Inout <WING_BH7> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH0> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH1> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH2> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH3> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH4> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH5> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH6> is never assigned.
+WARNING:Xst:2565 - Inout <WING_CH7> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL0> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL1> is never assigned.
+WARNING:Xst:2565 - Inout <WING_AL2> is never assigned.
+WARNING:Xst:653 - Signal <XLXN_20> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Papilio_One_250K> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+WARNING:Xst:528 - Multi-source in Unit <Papilio_One_250K> on signal <XLXN_17>; this signal is connected to multiple drivers.
+Drivers are: 
+   GND from instance <XLXI_31>
+   Output signal of BUFGCE instance <XLXI_42/XLXI_8>
+   Output signal of BUFGCE instance <XLXI_42/XLXI_5>
+   Output signal of BUFGCE instance <XLXI_42/XLXI_4>
+   Signal <N0> in Unit <Papilio_One_250K> is assigned to GND
+
+WARNING:Xst:528 - Multi-source in Unit <Papilio_One_250K> on signal <XLXN_31>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of BUFGCE instance <XLXI_42/XLXI_7>
+   Output signal of BUFGCE instance <XLXI_42/XLXI_6>
+   Output signal of INV instance <XLXI_9>
+
+WARNING:Xst:528 - Multi-source in Unit <Papilio_One_250K> on signal <XLXN_32>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of BUFGCE instance <XLXI_42/XLXI_9>
+   Output signal of INV instance <XLXI_8>
+
+WARNING:Xst:528 - Multi-source in Unit <Papilio_One_250K> on signal <XLXN_33>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of BUFGCE instance <XLXI_42/XLXI_10>
+   Output signal of INV instance <XLXI_10>
+
+WARNING:Xst:528 - Multi-source in Unit <Papilio_One_250K> on signal <XLXN_34>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of BUFGCE instance <XLXI_42/XLXI_11>
+   Output signal of NAND3 instance <XLXI_11>
+
+Optimizing unit <Papilio_One_250K> ...
+
+Optimizing unit <A138> ...
+
+Optimizing unit <A595> ...
+
+Optimizing unit <A245> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Papilio_One_250K, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Papilio_One_250K.ngr
+Top Level Output File Name         : Papilio_One_250K
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 28
+#      AND2B1                      : 3
+#      AND2B2                      : 3
+#      AND3B2                      : 1
+#      BUF                         : 6
+#      GND                         : 1
+#      INV                         : 14
+# FlipFlops/Latches                : 32
+#      FD                          : 16
+#      FDR                         : 16
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 8
+#      IBUF                        : 6
+#      OBUF                        : 2
+# Logical                          : 10
+#      NAND3                       : 2
+#      NAND4                       : 8
+# Others                           : 69
+#      BUFGCE                      : 64
+#      PULLUP                      : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250evq100-4 
+
+ Number of Slices:                       18  out of   2448     0%  
+ Number of Slice Flip Flops:             32  out of   4896     0%  
+ Number of 4 input LUTs:                 14  out of   4896     0%  
+ Number of IOs:                          34
+ Number of bonded IOBs:                  10  out of     66    15%  
+ Number of GCLKs:                        66  out of     24   275% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+WING_BL1                           | BUFGP                  | 16    |
+WING_BL3                           | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 1.346ns (Maximum Frequency: 742.942MHz)
+   Minimum input arrival time before clock: 3.070ns
+   Maximum output required time after clock: 1.011ns
+   Maximum combinational path delay: 8.829ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'WING_BL3'
+  Clock period: 1.346ns (frequency: 742.942MHz)
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Delay:               1.346ns (Levels of Logic = 0)
+  Source:            XLXI_41/XLXI_14 (FF)
+  Destination:       XLXI_41/XLXI_16 (FF)
+  Source Clock:      WING_BL3 rising
+  Destination Clock: WING_BL3 rising
+
+  Data Path: XLXI_41/XLXI_14 to XLXI_41/XLXI_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.447  XLXI_41/XLXI_14 (XLXI_41/XLXN_38)
+     FDR:D                     0.308          XLXI_41/XLXI_16
+    ----------------------------------------
+    Total                      1.346ns (0.899ns logic, 0.447ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'WING_BL3'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.070ns (Levels of Logic = 2)
+  Source:            WING_BL2 (PAD)
+  Destination:       XLXI_39/XLXI_2 (FF)
+  Destination Clock: WING_BL3 rising
+
+  Data Path: WING_BL2 to XLXI_39/XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  WING_BL2_IBUF (WING_BL2_IBUF)
+     BUF:I->O              1   0.704   0.420  XLXI_39/XLXI_18 (XLXI_39/XLXN_1)
+     FDR:D                     0.308          XLXI_39/XLXI_2
+    ----------------------------------------
+    Total                      3.070ns (2.230ns logic, 0.840ns route)
+                                       (72.6% logic, 27.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'WING_BL1'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.011ns (Levels of Logic = 0)
+  Source:            XLXI_41/XLXI_15 (FF)
+  Destination:       XLXI_41/XLXI_33:I (PAD)
+  Source Clock:      WING_BL1 rising
+
+  Data Path: XLXI_41/XLXI_15 to XLXI_41/XLXI_33:I
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  XLXI_41/XLXI_15 (XLXI_41/XLXN_17)
+    BUFGCE:I                   0.000          XLXI_41/XLXI_33
+    ----------------------------------------
+    Total                      1.011ns (0.591ns logic, 0.420ns route)
+                                       (58.5% logic, 41.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 841 / 114
+-------------------------------------------------------------------------
+Delay:               8.829ns (Levels of Logic = 5)
+  Source:            WING_CL0 (PAD)
+  Destination:       WING_BL4 (PAD)
+
+  Data Path: WING_CL0 to WING_BL4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  WING_CL0_IBUF (WING_CL0_IBUF)
+     INV:I->O              5   0.704   0.633  XLXI_38/XLXI_25 (XLXI_38/XLXN_32)
+     INV:I->O              4   0.704   0.587  XLXI_38/XLXI_26 (XLXI_38/XLXN_3)
+     NAND4:I2->O           4   0.704   0.587  XLXI_38/XLXI_6 (WING_BL4_OBUF)
+     OBUF:I->O                 3.272          WING_BL4_OBUF (WING_BL4)
+    ----------------------------------------
+    Total                      8.829ns (6.602ns logic, 2.227ns route)
+                                       (74.8% logic, 25.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.81 secs
+ 
+--> 
+
+Total memory usage is 266584 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   76 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

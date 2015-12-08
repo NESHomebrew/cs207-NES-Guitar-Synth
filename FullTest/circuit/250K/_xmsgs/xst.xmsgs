@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">233</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Y7_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">A138</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">233</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Y6_9</arg>&apos; of component &apos;<arg fmt="%s" index="4">A138</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">233</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Y5_10</arg>&apos; of component &apos;<arg fmt="%s" index="4">A138</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q7S_9</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0_15</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q2_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q5_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q4_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q6_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q7_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q7S_9</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0_15</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q2_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q5_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q4_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q6_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q7_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">A595</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B0_18</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B1_17</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B2_16</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B3_15</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B4_14</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B5_13</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B6_12</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B7_11</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B0_18</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B1_17</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B2_16</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B3_15</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B4_14</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B5_13</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B6_12</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">301</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B7_11</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B0_18</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B1_17</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B2_16</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B3_15</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B4_14</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B5_13</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B6_12</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/occupation_snow/Desktop/FullTest/FullTest/circuit/250K/Papilio_One_250K.vhf</arg>&quot; line <arg fmt="%d" index="2">321</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">B7_11</arg>&apos; of component &apos;<arg fmt="%s" index="4">A245</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL3</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL4</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL5</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH0</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL6</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH1</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL7</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH2</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH3</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH4</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH5</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH6</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_BH7</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH0</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH1</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH2</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH3</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH4</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH5</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH6</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_CH7</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL0</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL1</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">WING_AL2</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_20</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="old" >Multi-source in Unit &lt;<arg fmt="%s" index="1">Papilio_One_250K</arg>&gt; on signal &lt;<arg fmt="%s" index="2">XLXN_17</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="old" >Multi-source in Unit &lt;<arg fmt="%s" index="1">Papilio_One_250K</arg>&gt; on signal &lt;<arg fmt="%s" index="2">XLXN_31</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="old" >Multi-source in Unit &lt;<arg fmt="%s" index="1">Papilio_One_250K</arg>&gt; on signal &lt;<arg fmt="%s" index="2">XLXN_32</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="old" >Multi-source in Unit &lt;<arg fmt="%s" index="1">Papilio_One_250K</arg>&gt; on signal &lt;<arg fmt="%s" index="2">XLXN_33</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="old" >Multi-source in Unit &lt;<arg fmt="%s" index="1">Papilio_One_250K</arg>&gt; on signal &lt;<arg fmt="%s" index="2">XLXN_34</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

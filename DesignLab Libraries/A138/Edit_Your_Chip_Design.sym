@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Edit_Your_Chip_Design">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-12-3T9:24:15</timestamp>
+    <graph>
+        <rect width="256" x="64" y="0" height="0" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-8" type="symbol" />
+    </graph>
+</symbol>
